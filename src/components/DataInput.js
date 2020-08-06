@@ -18,7 +18,7 @@ const DataInput = (props) => {
                 if (isFinite(i)) {
                     if (i.length === 8) {
                         resObject.id = i;
-                    } else if (i.length > 0 && i.length < 3) {
+                    } else if ((i.length > 0 && i.length < 3) && i>0) {
                         resObject.age = i;
                     }
                 } else if (i.toLowerCase() === 'male' || i.toLowerCase() === 'female') {
