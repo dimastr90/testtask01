@@ -17,17 +17,25 @@
     "react-toastify": "^6.0.8"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+ "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dimastr90/testtask01.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "Dima Stronov <dimastr90@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dimastr90/testtask01/issues"
-  },
-  "homepage": "https://github.com/dimastr90/testtask01#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
