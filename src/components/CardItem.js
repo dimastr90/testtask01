@@ -23,7 +23,7 @@ const CardItem = (props) => {
     const submitButtonHandler = () => {
         if (form.id.length !== 8 || !isFinite(form.id)) {
             toast.error('Incorrect id');
-        } else if (!isFinite(form.age) || (form.age < 0 || form.age > 100)) {
+        } else if (!isFinite(form.age) || (form.age <= 0 || form.age > 100)) {
             toast.error('Incorrect age');
         } else {
             props.updateLocalStorageData(form, props.cardData.id);
