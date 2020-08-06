@@ -1,0 +1,122 @@
+/*Main Block*/
+
+.mainDataContainer {
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.mainDataContainerInput {
+    background-color: white;
+}
+
+.mainDataContainerCards {
+    margin-top:1em;
+    background-color: floralwhite;
+    margin-right: 0.2em;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.mainDataContainerRight {
+    background-color: white;
+    margin: 0.2em;
+}
+
+
+.inputField {
+    width: 100%;
+}
+
+.cardListPagination{
+    padding: 1em;
+}
+
+.cardData{
+    padding: 1em;
+}
+
+.cardData input[type=text]{
+    width: 7em;
+}
+
+
+/*Sort Block*/
+
+.sortBlockTop{
+    margin-top: 1em;
+    background-color: #3f51b5;
+    padding: 1em;
+}
+
+
+.sortBlockTop span{
+    color: white;
+    font-family: "Roboto";
+    font-size: 1.3em;
+}
+
+.sortBlockForms{
+    padding: 1em;
+}
+
+.sortBlockSortOrder{
+    transform: scale(0.8);
+}
+
+.navbar {
+    margin-bottom: 1em;
+}
+
+
+/*Statistic Block*/
+
+.statisticBlockTop{
+    background-color: #3f51b5;
+    padding: 1em;
+}
+
+
+.statisticBlockTop span{
+    color: white;
+    font-family: "Roboto";
+    font-size: 1.3em;
+}
+
+
+.statisticBlockForm{
+    text-align: center;
+    padding: 1em;
+}
+
+.statisticBlockHeader{
+    margin-bottom: 1em;
+}
+
+.statisticBlockResult{
+    padding: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+
+
+/*Filter Block*/
+
+.filterBlockTop{
+    background-color: #3f51b5;
+    padding: 1em;
+}
+
+
+.filterBlockTop span{
+    color: white;
+    font-family: "Roboto";
+    font-size: 1.3em;
+}
+
+
+.filterBlockForm{
+    padding: 1em;
+}
