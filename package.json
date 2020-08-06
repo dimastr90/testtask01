@@ -1,7 +1,8 @@
 {
   "name": "testtask01",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "test task for react middle",
+  "main": "index.js",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/lab": "^4.0.0-alpha.56",
@@ -15,25 +16,18 @@
     "react-scripts": "3.4.1",
     "react-toastify": "^6.0.8"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimastr90/testtask01.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "author": "Dima Stronov <dimastr90@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimastr90/testtask01/issues"
+  },
+  "homepage": "https://github.com/dimastr90/testtask01#readme"
 }
